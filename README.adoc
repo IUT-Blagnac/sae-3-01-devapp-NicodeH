@@ -31,14 +31,14 @@ endif::[]
 // /!\ A MODIFIER !!!
 :baseURL: https://github.com/IUT-Blagnac/sae-3-01-devapp-G1A-2
 
-// Tags
+// Tags TODO
 image:{baseURL}/actions/workflows/blank.yml/badge.svg[Bidon] 
 image:{baseURL}/actions/workflows/build.yml/badge.svg[Build] 
 image:{baseURL}/actions/workflows/tests.yml/badge.svg[Tests] 
 image:https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg[License: MPL-2.0, link="https://opensource.org/licenses/MPL-2.0"]
 //---------------------------------------------------------------
 
-TIP: Pensez à mettre à jour les infos dans ce fichier pour que les badges pointent sur les résultats effectifs de vos intégrations continue ou sur la bonne licence logicielle.
+// TIP: Pensez à mettre à jour les infos dans ce fichier pour que les badges pointent sur les résultats effectifs de vos intégrations continue ou sur la bonne licence logicielle.
 
 WARNING: Ce dépôt présente le projet à développer dans le cadre de la SAÉ 3.01 du BUT2 Informatique de l'IUT de Blagnac.
 
@@ -50,13 +50,14 @@ toc::[]
 == Equipe
 
 Projet est réalisé par::
-- https://github.com/NicodeH [Nicolas Ho]
+- https://github.com/NicodeH[Nicolas Ho]
 - https://github.com/luca-gchs[Luca Gaches]
 - https://github.com/summerflamme[Robin Gourgues]
 - https://github.com/summerflamme[Melvin Bouyssou]
-...
 
-Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
+Tuteur/tutrice enseignant(e) de l'équipe:: TODO
+
+//mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
 
 == Contexte général
 
