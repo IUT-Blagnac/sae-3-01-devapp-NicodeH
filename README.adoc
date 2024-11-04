@@ -50,11 +50,11 @@ toc::[]
 == Equipe
 
 Projet est réalisé par::
-- https://github.com/NicodeH [Nicolas Ho]
+- https://github.com/NicodeH[Nicolas Ho]
 - https://github.com/luca-gchs[Luca Gaches]
 - https://github.com/summerflamme[Robin Gourgues]
-- https://github.com/summerflamme[Melvin Bouyssou]
-...
+- https://github.com/Melllvin[Melvin Bouyssou]
+
 
 Tuteur/tutrice enseignant(e) de l'équipe:: mailto:jean-michel.bruel@univ-tlse2.fr[JMB]
 
