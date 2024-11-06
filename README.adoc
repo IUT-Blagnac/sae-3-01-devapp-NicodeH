@@ -119,8 +119,9 @@ ifndef::env-github[]
 endif::[]
 
 == Historique des journées de télétravail
-À venir :
-- 06/11/2024 : de 9h30 à  12h30
 
-Passée :
+=== À venir
+- **06/11/2024** : de 9h30 à 12h30
+
+=== Passées
 - ...
