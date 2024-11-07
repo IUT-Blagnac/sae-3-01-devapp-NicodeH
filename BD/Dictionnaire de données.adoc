@@ -1,0 +1,79 @@
+# Dictionnaire de données
+
+[cols="1,1,1,2", options="header"]
+|===
+| Table | Colonne | Type | Description
+
+.12+| *Produit*
+| id | Integer | Identifiant du produit
+| nom | Varchar(20) | Nom du produit
+| description | Varchar(200) | Description du produit
+| prix | Decimal(10,2) | Prix du produit
+| aspectTechnique | Varchar(200) | Aspect technique du produit (lacets, semelle, ...)
+| composition | Varchar(200) | Composition du produit (cuir, synthétique, ...)
+| id_categorie | Integer | Identifiant de la catégorie du produit
+| id_marque | Integer | Identifiant de la marque du produit
+| couleur | Varchar(20) | Couleur du produit
+| taille | Varchar(3) | Taille du produit
+| poids | Decimal(10,2) | Poids du produit
+| genre | Varchar(10) | Genre du produit (homme, femme, enfant) 
+
+.4+| *Catégorie*
+| id | Integer | Identifiant de la catégorie
+| nom | Varchar(20) | Nom de la catégorie
+| description | Varchar(200) | Description de la catégorie
+| id_parent | Integer | Identifiant de la catégorie parente
+
+.3+| *Marque*
+| id | Integer | Identifiant de la marque
+| nom | Varchar(20) | Nom de la marque
+| description | Varchar(200) | Description de la marque
+
+.9+| *Utilisateur*
+| id | Integer | Identifiant de l'utilisateur
+| nom | Varchar(20) | Nom de l'utilisateur
+| prenom | Varchar(20) | Prénom de l'utilisateur
+| email | Varchar(50) | Email de l'utilisateur
+| mot_de_passe | Varchar(100) | Mot de passe de l'utilisateur (hashé)
+| telephone | Varchar(10) | Téléphone de l'utilisateur
+| date_naissance | Date | Date de naissance de l'utilisateur
+| date_inscription | Date | Date d'inscription de l'utilisateur
+| id_role | Integer | Identifiant du rôle de l'utilisateur 
+(1 = client, 2 = administrateur)
+
+.3+| *Role*
+| id | Integer | Identifiant du rôle
+| nom | Varchar(20) | Nom du rôle
+| description | Varchar(200) | Description du rôle
+
+.7+| *Commande*
+| id | Integer | Identifiant de la commande
+| date | Date | Date de la commande
+| id_utilisateur | Integer | Identifiant de l'utilisateur ayant passé la commande
+| id_adresse_livraison | Integer | Identifiant de l'adresse de livraison
+| id_adresse_facturation | Integer | Identifiant de l'adresse de facturation
+| id_mode_paiement | Integer | Identifiant du mode de paiement
+| id_statut | Integer | Identifiant du statut de la commande
+
+.5+| *Adresse*
+| id | Integer | Identifiant de l'adresse
+| adresse | Varchar(200) | Adresse
+| code_postal | Varchar(5) | Code postal
+| ville | Varchar(50) | Ville
+| pays | Varchar(50) | Pays
+
+.4+| *Mode de paiement*
+| id | Integer | Identifiant du mode de paiement
+| nom | Varchar(20) | Nom du mode de paiement
+| description | Varchar(200) | Description du mode de paiement
+| bon ici je sais pas comment faire :x | |
+
+.3+| *Statut commande*
+| id | Integer | Identifiant du statut de la commande
+| nom | Varchar(20) | Nom du statut de la commande (en attente, en cours, ...)
+| description | Varchar(200) | Description du statut de la commande (utilisé pour l'affichage en détail de la commande (un clique sur l'état de la commande et on afficherait la description pour apporter + de détails))
+
+.
+
+
+|===
