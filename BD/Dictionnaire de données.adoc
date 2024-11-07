@@ -9,8 +9,8 @@
 | nom | Varchar(20) | Nom du produit
 | description | Varchar(200) | Description du produit
 | prix | Decimal(10,2) | Prix du produit
-| aspectTechnique | Varchar(200) | Aspect technique du produit (lacets, semelle, ...)
-| composition | Varchar(200) | Composition du produit (cuir, synthétique, ...)
+| aspectTechnique | Varchar(200) | Aspect technique du produit (Technologie, ...)
+| composition | Varchar(200) | Composition du produit (Semelle, ...)
 | id_categorie | Integer | Identifiant de la catégorie du produit
 | id_marque | Integer | Identifiant de la marque du produit
 | couleur | Varchar(20) | Couleur du produit
@@ -73,7 +73,31 @@
 | nom | Varchar(20) | Nom du statut de la commande (en attente, en cours, ...)
 | description | Varchar(200) | Description du statut de la commande (utilisé pour l'affichage en détail de la commande (un clique sur l'état de la commande et on afficherait la description pour apporter + de détails))
 
-.
+.6+| *Ligne commande*
+| id | Integer | Identifiant de la ligne de commande
+| id_commande | Integer | Identifiant de la commande
+| id_produit | Integer | Identifiant du produit
+| quantite | Integer | Quantité du produit
+| prix_unitaire | Decimal(10,2) | Prix unitaire du produit
+| prix_total | Decimal(10,2) | Prix total de la ligne de commande
 
+.5+| *Commentaire*
+| id | Integer | Identifiant du commentaire
+| id_produit | Integer | Identifiant du produit
+| id_utilisateur | Integer | Identifiant de l'utilisateur
+| note | Integer | Note du commentaire
+| commentaire | Varchar(200) | Commentaire
+
+.4+| *Image*
+| id | Integer | Identifiant de l'image
+| id_produit | Integer | Identifiant du produit
+| url | Varchar(200) | URL de l'image
+
+.4+| *Stock*
+| id | Integer | Identifiant du stock
+| id_produit | Integer | Identifiant du produit
+| quantite | Integer | Quantité en stock
 
 |===
+
+# Le fonctionnement des commandes n'est pas définitif, il est possible que des modifications soient apportées
