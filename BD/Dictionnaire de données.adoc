@@ -88,12 +88,12 @@
 | note | Integer | Note du commentaire
 | commentaire | Varchar(200) | Commentaire
 
-.4+| *Image*
+.3+| *Image*
 | id | Integer | Identifiant de l'image
 | id_produit | Integer | Identifiant du produit
 | url | Varchar(200) | URL de l'image
 
-.4+| *Stock*
+.3+| *Stock*
 | id | Integer | Identifiant du stock
 | id_produit | Integer | Identifiant du produit
 | quantite | Integer | Quantité en stock
