@@ -1,0 +1,59 @@
+= Mon Projet GitHub
+Auteur: MonNom
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toc-title: Table des Matières
+:sectnums:
+:imagesdir: ./images
+
+== Introduction
+
+Bienvenue dans la documentation de _Mon Projet GitHub_. Ce projet a pour but de faire...
+
+== Diagrammes
+
+Voici les diagrammes qui ont été réalisés dans le projet :
+
+=== Diagramme de séquence
+
+image::image1.png[width=600, link="https://github.com/IUT-Blagnac/sae-3-01-devapp-G1A-2/blob/master/documentations/diagrammes/DS/diag_seq_admin_gest_prod.png"]
+
+_Déscription de l'image 1 : Cette image montre..._
+
+=== Diagramme de séquence système
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
+=== Diagramme de classe conception
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
+=== Diagramme de classe métier
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
+=== Diagramme d'état
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
+=== Diagramme de Use Case
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
