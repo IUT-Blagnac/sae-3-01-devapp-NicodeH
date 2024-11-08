@@ -5,98 +5,98 @@
 | Table | Colonne | Type | Description
 
 .12+| *Produit*
-| id | Integer | Identifiant du produit
-| nom | Varchar(20) | Nom du produit
-| description | Varchar(200) | Description du produit
+| idProduit | Integer | Identifiant du produit
+| nomProduit | Varchar(20) | Nom du produit
+| descriptionProd | Varchar(200) | Description du produit
 | prix | Decimal(10,2) | Prix du produit
 | aspectTechnique | Varchar(200) | Aspect technique du produit (Technologie, ...)
 | composition | Varchar(200) | Composition du produit (Semelle, ...)
-| id_categorie | Integer | Identifiant de la catégorie du produit
-| id_marque | Integer | Identifiant de la marque du produit
+| idCategorie | Integer | Identifiant de la catégorie du produit
+| idMarque | Integer | Identifiant de la marque du produit
 | couleur | Varchar(20) | Couleur du produit
 | taille | Varchar(3) | Taille du produit
 | poids | Decimal(10,2) | Poids du produit
 | genre | Varchar(10) | Genre du produit (homme, femme, enfant) 
 
 .4+| *Catégorie*
-| id | Integer | Identifiant de la catégorie
-| nom | Varchar(20) | Nom de la catégorie
-| description | Varchar(200) | Description de la catégorie
-| id_parent | Integer | Identifiant de la catégorie parente
+| idCategorie | Integer | Identifiant de la catégorie
+| nomCategorie | Varchar(20) | Nom de la catégorie
+| descriptionCat | Varchar(200) | Description de la catégorie
+| idParent | Integer | Identifiant de la catégorie parente
 
 .3+| *Marque*
-| id | Integer | Identifiant de la marque
-| nom | Varchar(20) | Nom de la marque
-| description | Varchar(200) | Description de la marque
+| idMarque | Integer | Identifiant de la marque
+| nomMarque | Varchar(20) | Nom de la marque
+| descriptionMarque | Varchar(200) | Description de la marque
 
 .9+| *Utilisateur*
-| id | Integer | Identifiant de l'utilisateur
+| idUtilisateur | Integer | Identifiant de l'utilisateur
 | nom | Varchar(20) | Nom de l'utilisateur
 | prenom | Varchar(20) | Prénom de l'utilisateur
 | email | Varchar(50) | Email de l'utilisateur
-| mot_de_passe | Varchar(100) | Mot de passe de l'utilisateur (hashé)
+| mdp | Varchar(100) | Mot de passe de l'utilisateur (hashé)
 | telephone | Varchar(10) | Téléphone de l'utilisateur
-| date_naissance | Date | Date de naissance de l'utilisateur
-| date_inscription | Date | Date d'inscription de l'utilisateur
-| id_role | Integer | Identifiant du rôle de l'utilisateur 
+| dtn | Date | Date de naissance de l'utilisateur
+| dateInscription | Date | Date d'inscription de l'utilisateur
+| idRole | Integer | Identifiant du rôle de l'utilisateur 
 (1 = client, 2 = administrateur)
 
 .3+| *Role*
-| id | Integer | Identifiant du rôle
-| nom | Varchar(20) | Nom du rôle
-| description | Varchar(200) | Description du rôle
+| idRole | Integer | Identifiant du rôle
+| nomRole | Varchar(20) | Nom du rôle
+| descriptionRole | Varchar(200) | Description du rôle
 
 .7+| *Commande*
-| id | Integer | Identifiant de la commande
-| date | Date | Date de la commande
-| id_utilisateur | Integer | Identifiant de l'utilisateur ayant passé la commande
-| id_adresse_livraison | Integer | Identifiant de l'adresse de livraison
-| id_adresse_facturation | Integer | Identifiant de l'adresse de facturation
-| id_mode_paiement | Integer | Identifiant du mode de paiement
-| id_statut | Integer | Identifiant du statut de la commande
+| idCommande | Integer | Identifiant de la commande
+| dateCommande | Date | Date de la commande
+| idUtilisateur | Integer | Identifiant de l'utilisateur ayant passé la commande
+| idAdrLivraison | Integer | Identifiant de l'adresse de livraison
+| idAdrFacturation | Integer | Identifiant de l'adresse de facturation
+| idModePaiement | Integer | Identifiant du mode de paiement
+| idStatut | Integer | Identifiant du statut de la commande
 
 .5+| *Adresse*
-| id | Integer | Identifiant de l'adresse
+| idAdr | Integer | Identifiant de l'adresse
 | adresse | Varchar(200) | Adresse
-| code_postal | Varchar(5) | Code postal
+| codePostal | Varchar(5) | Code postal
 | ville | Varchar(50) | Ville
 | pays | Varchar(50) | Pays
 
 .4+| *Mode de paiement*
-| id | Integer | Identifiant du mode de paiement
-| nom | Varchar(20) | Nom du mode de paiement
-| description | Varchar(200) | Description du mode de paiement
+| idModePaiement | Integer | Identifiant du mode de paiement
+| nomPaiement | Varchar(20) | Nom du mode de paiement
+| descriptionPaiement | Varchar(200) | Description du mode de paiement
 | bon ici je sais pas comment faire :x | |
 
 .3+| *Statut commande*
-| id | Integer | Identifiant du statut de la commande
-| nom | Varchar(20) | Nom du statut de la commande (en attente, en cours, ...)
-| description | Varchar(200) | Description du statut de la commande (utilisé pour l'affichage en détail de la commande (un clique sur l'état de la commande et on afficherait la description pour apporter + de détails))
+| idStatut | Integer | Identifiant du statut de la commande
+| nomStatut | Varchar(20) | Nom du statut de la commande (en attente, en cours, ...)
+| descriptionStatut | Varchar(200) | Description du statut de la commande (utilisé pour l'affichage en détail de la commande (un clique sur l'état de la commande et on afficherait la description pour apporter + de détails))
 
 .6+| *Ligne commande*
-| id | Integer | Identifiant de la ligne de commande
-| id_commande | Integer | Identifiant de la commande
-| id_produit | Integer | Identifiant du produit
-| quantite | Integer | Quantité du produit
-| prix_unitaire | Decimal(10,2) | Prix unitaire du produit
-| prix_total | Decimal(10,2) | Prix total de la ligne de commande
+| idLigne | Integer | Identifiant de la ligne de commande
+| idCommande | Integer | Identifiant de la commande
+| idProduit | Integer | Identifiant du produit
+| qte | Integer | Quantité du produit
+| pu | Decimal(10,2) | Prix unitaire du produit
+| ptot | Decimal(10,2) | Prix total de la ligne de commande
 
 .5+| *Commentaire*
-| id | Integer | Identifiant du commentaire
-| id_produit | Integer | Identifiant du produit
-| id_utilisateur | Integer | Identifiant de l'utilisateur
+| idCommentaire | Integer | Identifiant du commentaire
+| idProduit | Integer | Identifiant du produit
+| idUtilisateur | Integer | Identifiant de l'utilisateur
 | note | Integer | Note du commentaire
 | commentaire | Varchar(200) | Commentaire
 
 .3+| *Image*
-| id | Integer | Identifiant de l'image
-| id_produit | Integer | Identifiant du produit
+| idImage | Integer | Identifiant de l'image
+| idProduit | Integer | Identifiant du produit
 | url | Varchar(200) | URL de l'image
 
 .3+| *Stock*
-| id | Integer | Identifiant du stock
-| id_produit | Integer | Identifiant du produit
-| quantite | Integer | Quantité en stock
+| idStock | Integer | Identifiant du stock
+| idProduit | Integer | Identifiant du produit
+| qte | Integer | Quantité en stock
 
 |===
 
