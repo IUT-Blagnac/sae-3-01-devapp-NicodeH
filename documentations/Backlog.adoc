@@ -6,15 +6,7 @@
 
 |Se connecter (avec cookie pour login) / se déconnecter
 |3 jours
-|
-+++
-<select name="Priorité">
-  <option value="must">Must</option>
-    <option value="should">Should</option>
-    <option value="could">Could</option>
-    <option value="will">Will</option>
-</select>
-+++
+|Must
 
 |Création compte client
 |3 jours
