@@ -12,43 +12,48 @@ Auteur: MonNom
 
 Bienvenue dans la documentation de _Mon Projet GitHub_. Ce projet a pour but de faire...
 
-== Structure du Projet
+== Diagrammes
 
-Le projet est structuré de la manière suivante :
+Voici les diagrammes qui ont été réalisés dans le projet :
 
-* `src/` - Contient le code source
-* `docs/` - Documentation et ressources
-* `images/` - Images et captures d’écran
+=== Diagramme de séquence
 
-== Images
-
-Voici quelques exemples d'images utilisées dans le projet :
-
-=== Exemple d'Image 1
-
-image::image1.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image1.png"]
+image::image1.png[width=600, link="https://github.com/IUT-Blagnac/sae-3-01-devapp-G1A-2/blob/master/documentations/diagrammes/DS/diag_seq_admin_gest_prod.png"]
 
 _Déscription de l'image 1 : Cette image montre..._
 
-=== Exemple d'Image 2
+=== Diagramme de séquence système
 
 image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
 
+Lien vers le diagramme : 
 _Déscription de l'image 2 : Voici une illustration de..._
 
-== Guide d'Utilisation
+=== Diagramme de classe conception
 
-Pour utiliser ce projet, suivez les étapes suivantes :
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
 
-. Clonez le dépôt
-. Installez les dépendances
-. Lancez l'application
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
 
-== Liens Utiles
+=== Diagramme de classe métier
 
-* Lien vers le dépôt : https://github.com/MonNom/mon-projet
-* Documentation complémentaire : https://github.com/MonNom/mon-projet/wiki
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
 
-== Conclusion
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
 
-Merci d'avoir consulté la documentation. Pour toute question, n'hésitez pas à ouvrir une _Issue_ dans le dépôt.
+=== Diagramme d'état
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
+=== Diagramme de Use Case
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+Lien vers le diagramme : 
+_Déscription de l'image 2 : Voici une illustration de..._
+
