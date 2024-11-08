@@ -1,0 +1,54 @@
+= Mon Projet GitHub
+Auteur: MonNom
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toc-title: Table des Matières
+:sectnums:
+:imagesdir: ./images
+
+== Introduction
+
+Bienvenue dans la documentation de _Mon Projet GitHub_. Ce projet a pour but de faire...
+
+== Structure du Projet
+
+Le projet est structuré de la manière suivante :
+
+* `src/` - Contient le code source
+* `docs/` - Documentation et ressources
+* `images/` - Images et captures d’écran
+
+== Images
+
+Voici quelques exemples d'images utilisées dans le projet :
+
+=== Exemple d'Image 1
+
+image::image1.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image1.png"]
+
+_Déscription de l'image 1 : Cette image montre..._
+
+=== Exemple d'Image 2
+
+image::image2.png[width=600, link="https://github.com/MonNom/mon-projet/blob/main/images/image2.png"]
+
+_Déscription de l'image 2 : Voici une illustration de..._
+
+== Guide d'Utilisation
+
+Pour utiliser ce projet, suivez les étapes suivantes :
+
+. Clonez le dépôt
+. Installez les dépendances
+. Lancez l'application
+
+== Liens Utiles
+
+* Lien vers le dépôt : https://github.com/MonNom/mon-projet
+* Documentation complémentaire : https://github.com/MonNom/mon-projet/wiki
+
+== Conclusion
+
+Merci d'avoir consulté la documentation. Pour toute question, n'hésitez pas à ouvrir une _Issue_ dans le dépôt.
