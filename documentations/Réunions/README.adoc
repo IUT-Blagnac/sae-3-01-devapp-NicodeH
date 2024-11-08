@@ -1,0 +1,25 @@
+# Liens vers les différents documents en lien avec les réunions
+
+## Réunions en tant qu'Agence de développement
+[cols="1,1,1", options="header"]
+|===
+| Date | Ordre du jour | Compte-rendu
+| 7/11/2024 | [Lien vers l'ordre du jour](./ODJ/ODJ_Agence_7-11.md) | [Lien vers le compte-rendu](./CR/CR_Agence_7-11.md)
+
+|===
+
+## Réunions en tant que Client
+[cols="1,1,1", options="header"]
+|===
+| Date | Ordre du jour | Compte-rendu
+| 8/11/2024 | [Lien vers l'ordre du jour](./ODJ/ODJ_Client_8-11.md) | [Lien vers le compte-rendu](./CR/CR_Client_8-11.md)
+
+|===
+
+## Réunions internes à l'équipe
+[cols="1,1,1", options="header"]
+|===
+| Date | Ordre du jour | Compte-rendu
+| 7/11/2024 | [Lien vers l'ordre du jour](./ODJ/ODJ_Equipe_7-11.md) | [Lien vers le compte-rendu](./CR/CR_Equipe_7-11.md)
+
+|===

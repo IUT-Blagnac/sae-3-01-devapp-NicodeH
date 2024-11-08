@@ -1,6 +1,4 @@
-![][image1]
-
-# **Récapitulatif 1ère réunion client**
+# **Récapitulatif 1ère réunion en tant qu'agence**
 
 ## 7 nov. 2024, télétravail
 
@@ -8,7 +6,17 @@
 
 # **Participants**
 
-G1A-2 (Agence) | G1B-5 (Client)
+**G1A-2 \- Agence**
+
+Nicolas Ho  
+Luca Gaches  
+Robin Gourgues  
+Bouyssou Melvin
+
+**G1B-5 \- Client**
+
+Kwadjani Bilon  
+Raban Théo
 
 # **Contexte**
 
@@ -37,4 +45,3 @@ G1A-2 (Agence) | G1B-5 (Client)
 
 * Pour les commandes, simuler un paiement (pas de if qui vérifie le paiement et on passe directement à la suite) : on peut imaginer un mail de confirmation, un suivi de commande etc…
 
-[image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnAAAAAICAYAAAB5/cImAAAAnUlEQVR4Xu3WMQ1CURREwS8LB6hAACVecIASFFCjABMkkNcuLSy5yRSj4Zztdj2/+K3L4w4fnqcdjHc87IE/2HI2+L4MNywZQpgoowJ0GLiCDDcsGUKYKKMCdBi4ggw3LBlCmCijAnQYuIIMNywZQpgoowJ0GLiCDDcsGUKYKKMCdBi4ggw3LBlCmCijAnQYuIIMNywZQpgoowJ0vAEJ5tqW7xehrgAAAABJRU5ErkJggg==>
