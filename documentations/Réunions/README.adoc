@@ -4,7 +4,7 @@
 [cols="1,1,1", options="header"]
 |===
 | Date | Ordre du jour | Compte-rendu
-| 7/11/2024 | [Lien vers l'ordre du jour](./ODJ/ODJ_Agence_7-11.md) | [Lien vers le compte-rendu](./CR/CR_Agence_7-11.md)
+| 7/11/2024 | ./ODJ/ODJ_Agence_7-11.md[Lien vers l'ordre du jour] | ./CR/CR_Agence_7-11.md[Lien vers le compte-rendu]
 
 |===
 
@@ -12,7 +12,7 @@
 [cols="1,1,1", options="header"]
 |===
 | Date | Ordre du jour | Compte-rendu
-| 8/11/2024 | [Lien vers l'ordre du jour](./ODJ/ODJ_Client_8-11.md) | [Lien vers le compte-rendu](./CR/CR_Client_8-11.md)
+| 8/11/2024 | ./ODJ/ODJ_Client_8-11.md[Lien vers l'ordre du jour] | ./CR/CR_Client_8-11.md[Lien vers le compte-rendu]
 
 |===
 
@@ -20,6 +20,6 @@
 [cols="1,1,1", options="header"]
 |===
 | Date | Ordre du jour | Compte-rendu
-| 7/11/2024 | [Lien vers l'ordre du jour](./ODJ/ODJ_Equipe_7-11.md) | [Lien vers le compte-rendu](./CR/CR_Equipe_7-11.md)
+| 7/11/2024 | ./ODJ/ODJ_Interne_7-11.md[Lien vers l'ordre du jour] | ./CR/CR_Interne_7-11.md[Lien vers le compte-rendu]
 
 |===
